@@ -4,9 +4,9 @@ require File.expand_path('../lib/string/irc/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Kentaro Kuribayashi"]
   gem.email         = ["kentarok@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{IRC-friendlily colorize text.}
+  gem.summary       = %q{IRC-friendlily colorize text.}
+  gem.homepage      = "http://github.com/kentaro/string-irc"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
